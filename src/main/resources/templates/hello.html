@@ -1,1 +1,9 @@
-Hello!
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Hello!</title>
+</head>
+<body>
+<h2 th:text="'Hello, ' + ${user} + '!'"></h2>
+</body>
+</html>
